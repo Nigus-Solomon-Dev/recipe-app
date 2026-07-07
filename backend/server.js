@@ -3,6 +3,7 @@ const express=require('express');
 const cors=require('cors');
 const  mongoose=require('mongoose');
 const authRoutes = require('./routes/authRoutes');
+const recipeRoutes = require('./routes/recipeRoutes');
 const app=express();
 app.use(cors());
 app.use(express.json());
@@ -13,6 +14,7 @@ mongoose.connect(process.env.MONGODB_URI)
 
 
 app.use('/api/auth', authRoutes); 
+app.use('/api/recipes', recipeRoutes);
 app.get('/',(req,res)=>{
   res.send('hello');
 })
