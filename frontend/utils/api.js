@@ -1,5 +1,5 @@
 import axios from 'axios';
-const API_BASE = 'https://recipe-app-backend-4sbs.onrender.com';
+const API_BASE = 'https://recipe-app-backend-4sbs.onrender.com/api';
 //create axios  instance
 const api=axios.create({
   baseURL: API_BASE,
