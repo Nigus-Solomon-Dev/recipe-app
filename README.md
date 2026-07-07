@@ -10,7 +10,7 @@ A full-stack recipe management application that helps users store, organize, and
 
 ## Live Demo
 
-[View Live Demo](https://recipe-app.vercel.app)
+[View Live Demo](https://recipe-app-swart-nine.vercel.app/)
 
 ## Features
 
